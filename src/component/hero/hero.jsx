@@ -1,11 +1,13 @@
 import { Grid } from "@mui/material";
+import Container from '@mui/material/Container';
 import './hero.css';
 const Hero =()=>{
     return(
         <>
         <div className='hero'>
-        <Grid container spacing={2}>
-            <Grid item md={4}>
+        
+        <Grid container >
+            <Grid item md={6}>
                 <Grid item xs={12}>
                 <div >
                     <div className='hero_1'>
@@ -25,9 +27,10 @@ const Hero =()=>{
                  </div>
                 </Grid>
             </Grid>
-            <Grid item md={4}>
+            <Grid item md={6}>
                 <Grid item xs={12}>
-                <div className='splash' >
+                <div className='splashP' >
+                <div className='splash'>
                     <div className='splash1'>
                         <div className='txt_s'>
                         <h2>Abstr Gradient NFT</h2>
@@ -41,11 +44,12 @@ const Hero =()=>{
                     <div className='splash2'></div>
                     <div className='splash3'></div>
                 </div>  
-                    
+                </div>
 
                 </Grid>
             </Grid>
         </Grid>
+      
         </div>
         </>
     );

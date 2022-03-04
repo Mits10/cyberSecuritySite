@@ -3,6 +3,7 @@ import { Grid } from "@mui/material";
 const AmazeNFT =()=>{
 return(
     <>
+    <div className='wrapper'>
     <Grid container>
         <Grid item md={4}>
             <Grid item xs={12}>
@@ -30,6 +31,7 @@ return(
             </Grid>
         </Grid>
     </Grid>
+    </div>
     </>
 );
 }
