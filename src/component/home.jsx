@@ -1,3 +1,4 @@
+import React,{useEffect} from 'react';
 import Header from "./header/header";
 import Hero from "./hero/hero";
 import Product from "./product/product";
@@ -7,20 +8,27 @@ import CollectionOver from "./collectionOver/collectionOver";
 import './style.css'
 import CollectionNFT from "./collectionNFT/collectionNFT";
 import SignUpNFT from "./signUpNFT/signUpNFT";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Home=()=>{
+
+   useEffect(() => {
+       Aos.init({ duration: 2000});
+   }, []) 
     return(
     <>
         <Header/>
-        <Hero/>
-        <div className='amazeNFT'><AmazeNFT/></div>
-        <div className='collectionOver'><CollectionOver/></div>
-        <div className='amazeNFT'><CollectionNFT/></div>
-        <div className='collectionOver'><SignUpNFT/></div>
-        <div className='amazeNFT'><Product/></div>
+        <div className='home'>
+        <div data-aos='fade-up' className='collectionOver'><Hero/></div>
+        <div data-aos='fade-up' className='amazeNFT'><AmazeNFT/></div>
+        <div data-aos='fade-up' className='collectionOver'><CollectionOver/></div>
+        <div data-aos='fade-up' className='amazeNFT'><CollectionNFT/></div>
+        <div data-aos='fade-up' className='collectionOver'><SignUpNFT/></div>
+        <div data-aos='fade-up' className='amazeNFT'><Product/></div>
         
-        <div className='collectionOver'><Footer/></div>
-       
+        <div data-aos='fade-up' className='collectionOver'><Footer/></div>
+        </div>
     </>
     );
 }

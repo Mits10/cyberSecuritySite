@@ -18,9 +18,9 @@ const Hero =()=>{
                     <button>Explore now</button>
                     </div>
                     <div className='hero_2'>
-                    <button><h1>98k+</h1><h4>Artwork</h4></button>
-                    <button><h1>12k+</h1><h4>Auction</h4></button>
-                    <button><h1>15kk+</h1><h4>Artist</h4></button>
+                    <div><h1>98k+</h1><h4>Artwork</h4></div>
+                    <div><h1>12k+</h1><h4>Auction</h4></div>
+                    <div><h1>15k+</h1><h4>Artist</h4></div>
                     </div>
                  </div>
                 </Grid>

@@ -1,3 +1,6 @@
+.home{
+    animation:transitionIn 0.75s;
+}
 .amazeNFT{
     position: relative;
     overflow: hidden;
@@ -7,4 +10,22 @@
 .collectionOver{
     position: relative;
     margin: 120px;
+}
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+@media screen and (max-width: 600px){
+    .amazeNFT{
+        padding: 30px;
+    }
+    .collectionOver{
+        margin: 30px;
+    }
 }

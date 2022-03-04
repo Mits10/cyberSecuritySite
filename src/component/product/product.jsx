@@ -168,9 +168,7 @@ const Product=()=>{
         
     return(
         <>
-        <Grid container justifyContent={'center'} spacing={2} >
-        <Grid item container md={12} >
-        <Grid item xs={12}>
+
         <div className='p_1'>
             <h2>DISCOVER MORE NFTS</h2>
             <button className="active" >All Categoris</button>
@@ -181,13 +179,10 @@ const Product=()=>{
             <button >Music</button>
             <button >Crypto</button>
             <button >All Filters</button>
-        </div>
-        </Grid>
-        </Grid>
-        
+        </div>    
         <div className='p_2'>
         
-        <Grid item container md={12} >
+        <Grid container spacing={2} >
             {products.map((product)=>{
                     return (
                         <Grid  item container md={3}>
@@ -235,7 +230,7 @@ const Product=()=>{
         <Grid item container md={12}>
         <Grid item xs={12}><button>More NFTs</button></Grid>
         </Grid>
-        </Grid>
+        
         </>
     );
 }
