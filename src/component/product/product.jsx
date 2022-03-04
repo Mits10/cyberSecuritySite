@@ -185,10 +185,11 @@ const Product=()=>{
         <Grid container spacing={2} >
             {products.map((product)=>{
                     return (
+                        
                         <Grid  item container md={3}>
                         <Grid item  xs={12}>
                         
-                          
+                        <div className='p_3'>
                         <Card sx={{ maxWidth: 345 }}>
                               <CardHeader
                                 avatar={
@@ -216,8 +217,9 @@ const Product=()=>{
                                 </Typography>
                               </CardContent>
                              
-                              
+                             
                             </Card>
+                            </div>
                             </Grid>
                             </Grid>
                             
@@ -228,8 +230,13 @@ const Product=()=>{
         </div>
         
         <Grid item container md={12}>
-        <Grid item xs={12}><button>More NFTs</button></Grid>
+        <Grid item xs={12}>
+        <div className='p_4'>
+        <button>More NFTs</button>
+        </div>
         </Grid>
+        </Grid>
+      
         
         </>
     );

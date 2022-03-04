@@ -101,11 +101,6 @@ const CollectionOver=()=>{
                     R
                     </Avatar>
                 }
-                action={
-                    <IconButton aria-label="settings">
-                    <MoreVertIcon />
-                    </IconButton>
-                }
                 title={items1.title}
                 subheader={items1.quantity}
                 />
@@ -134,7 +129,7 @@ const CollectionOver=()=>{
                     
                         <li> <div className='secondaryCollectionContainer'>
                             <div><img src={item.img} alt=""/></div>
-                            <div>
+                            <div className='innerContainer'>
                                 <h2>{item.title}</h2>
                                 <div className='innerContainerA'>
                                 <div><Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">R</Avatar></div>

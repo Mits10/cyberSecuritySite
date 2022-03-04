@@ -21,3 +21,32 @@
     background-color: #3D00B7;
     color: white;
 }
+.p_3{
+    background-color: transparent;
+    /*transition: transform .2s;*/
+    margin: 0 auto;
+    -webkit-transition: all .2s ease-in-out .2s;
+    transition: all .2s ease-in-out .2s;
+}
+.p_3:hover{
+    -ms-transform: scale(1.20); /* IE 9 */
+    -webkit-transform: scale(1.20); /* Safari 3-8 */
+    transform: scale(1.20); 
+}
+.p_4{
+    text-align: center;
+}
+.p_4 button{
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px; 
+    margin: 6px;
+    background-color: #3D00B7;
+    color: white;
+}
+.p_4 button:hover{
+    background: rgba(220, 220, 220, 0.2);
+    color: black;
+    cursor: pointer; 
+}

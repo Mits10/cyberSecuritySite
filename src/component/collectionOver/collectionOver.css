@@ -1,3 +1,6 @@
+ul{
+    list-style-type: none;
+}
 .secondaryCollectionContainer{
     display: flex;
 }
@@ -16,6 +19,9 @@ line-height: 26px;
 
 
 color: #000000;
+}
+.innerContainer{
+    padding: 0px 15px;
 }
 .innerContainerA{
     display: flex;
@@ -51,6 +57,11 @@ color: #757575;
     padding: 14px 20px;
     border-radius: 50px;
 }
+.primary:hover{
+    background-color: #3D00B7;
+    color: white;
+    cursor: pointer; 
+}
 .thirdCollectionContainer{
     display: flex;
 }
@@ -75,7 +86,7 @@ color: #14C8B0;
 font-family: DM Sans;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1rem;
 line-height: 103%;
 /* or 16px */
 
@@ -94,4 +105,9 @@ color: #000000;
     letter-spacing: -0.025em;
     
     color: #636363;
+}
+.thirdCollectionContainer:hover{
+    -ms-transform: scale(1.20); /* IE 9 */
+    -webkit-transform: scale(1.20); /* Safari 3-8 */
+    transform: scale(1.20); 
 }

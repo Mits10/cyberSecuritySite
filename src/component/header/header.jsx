@@ -13,7 +13,6 @@ return (
         <div className="search-container">
             
             <input type="text" placeholder="Search.." name="search"/>
-            <button type="submit"><i className="fa-search"></i></button>
            
             <button className='scb_2'>Connect Wallet</button>
             <button className='scb_1'>Upload</button>

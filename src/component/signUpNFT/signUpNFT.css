@@ -2,6 +2,19 @@
     padding: 102px 0px;
     height: 400px;
 }
+.signUpNFTContainer button{
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+    border-radius: 50px;
+    background-color: #3D00B7;
+    color: white;
+}
+.signUpNFTContainer button:hover{
+    cursor: pointer; 
+    color: black;
+    background-color:#757575;
+}
 .signUpImageContainer{
     position: relative;
 }
