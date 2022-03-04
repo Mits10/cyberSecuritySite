@@ -1,0 +1,33 @@
+.signUpNFTContainer{
+    padding: 102px 0px;
+    
+}
+.signUpImageContainer{
+    position: relative;
+}
+.signUpImageContainerA{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    background: url('./../../assets/images/3.png');
+    border-radius: 12px;
+}
+.signUpImageContainerB{
+    position: absolute;
+    width: 240.95px;
+    height: 265.04px;
+    left: 364px;
+    top: 138px;
+    background: url('./../../assets/images/2.png');
+    border-radius: 12px;
+}
+.signUpImageContainerC{
+    position: absolute;
+    width: 194.55px;
+    height: 214px;
+    left: 105px;
+    top: 352px;
+    background: url('./../../assets/images/1.png');
+    border-radius: 12px;
+}
